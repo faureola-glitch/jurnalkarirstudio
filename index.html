@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JurnalKarir Studio | Solusi Dokumen Profesional, Mudah, Cepat, dan Terjangkau</title>
+    <meta name="description" content="JurnalKarir Studio menyediakan jasa pembuatan CV ATS Friendly, Surat Lamaran Kerja, Translate Jurnal/PDF, Transkrip Audio/Video, dan E-Meterai resmi dengan harga terjangkau dan proses cepat via WhatsApp.">
+    <meta name="keywords" content="jasa pembuatan CV, CV ATS friendly, surat lamaran kerja, translate jurnal, transkrip audio ke teks, beli e-meterai, JurnalKarir Studio">
+    <meta name="author" content="JurnalKarir Studio">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="JurnalKarir Studio - Solusi Dokumen Profesional">
+    <meta property="og:description" content="Butuh CV profesional, surat lamaran kerja, translate jurnal, atau transkrip audio & video? Proses cepat & terjangkau via WhatsApp.">
+    <meta property="og:type" content="website">
+
+    <!-- Google Fonts: Plus Jakarta Sans & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind Custom Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Plus Jakarta Sans', 'sans-serif'],
+                    },
+                    colors: {
+                        navy: {
+                            50: '#f0f4f8',
+                            100: '#d9e2ec',
+                            200: '#bcccdc',
+                            300: '#9fb3c8',
+                            400: '#829ab1',
+                            500: '#627d98',
+                            600: '#486581',
+                            700: '#334e68',
+                            800: '#1e3a5f',
+                            900: '#0f2544',
+                            950: '#09172b',
+                        },
+                        gold: {
+                            50: '#fefce8',
+                            100: '#fef9c3',
+                            200: '#fef08a',
+                            300: '#fde047',
+                            400: '#facc15',
+                            500: '#eab308',
+                            600: '#ca8a04',
+                            700: '#a16207',
+                        }
+                    },
+                    boxShadow: {
+                        'premium': '0 20px 40px -15px rgba(15, 37, 68, 0.08)',
+                        'gold-glow': '0 10px 25px -5px rgba(234, 179, 8, 0.35)',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Custom CSS for Animations and Micro-interactions -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #1e293b;
+            background-color: #ffffff;
+            overflow-x: hidden;
+        }
+        h1, h2, h3, h4, .font-heading {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        /* Scroll Reveal Animation Classes */
+        .reveal {
+            opacity: 0;
+            transform: translateY(28px);
+            transition: all 0.75s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Floating Animation for Hero Illustration */
+        @keyframes floatSlow {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+        .animate-float {
+            animation: floatSlow 5s ease-in-out infinite;
+        }
+        .animate-float-delayed {
+            animation: floatSlow 6s ease-in-out 1.5s infinite;
+        }
+
+        /* Subtle Pulse for Floating WhatsApp */
+        @keyframes pulseRing {
+            0% { transform: scale(0.95); opacity: 0.7; }
+            70% { transform: scale(1.3); opacity: 0; }
+            100% { transform: scale(1.3); opacity: 0; }
+        }
+        .wa-pulse::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            border-radius: 9999px;
+            background-color: #25D366;
+            z-index: -1;
+            animation: pulseRing 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+
+        /* Custom Gradient Text */
+        .text-gold-gradient {
+            background: linear-gradient(135deg, #facc15 0%, #ca8a04 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-gold-400 selection:text-navy-950">
+
+    <!-- ==========================================
+         HEADER / NAVIGATION BAR
+    =========================================== -->
+    <header id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-100 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                
+                <!-- Brand Logo -->
+                <a href="#beranda" class="flex items-center gap-2.5 group focus:outline-none">
+                    <div class="w-10 h-10 rounded-xl bg-navy-900 flex items-center justify-center shadow-md group-hover:bg-navy-800 transition-colors relative overflow-hidden">
+                        <div class="absolute -right-2 -top-2 w-5 h-5 bg-gold-400/20 rounded-full"></div>
+                        <svg class="w-6 h-6 text-gold-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                        </svg>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="font-heading font-extrabold text-xl tracking-tight text-navy-900 leading-none">
+                            JurnalKarir <span class="text-gold-600">Studio</span>
+                        </span>
+                        <span class="text-[11px] font-medium text-slate-500 tracking-wide mt-0.5">Solusi Dokumen Profesional</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation Menu -->
+                <nav class="hidden lg:flex items-center gap-8">
+                    <a href="#beranda" class="text-sm font-semibold text-navy-900 hover:text-gold-600 transition-colors">Beranda</a>
+                    <a href="#layanan" class="text-sm font-semibold text-slate-600 hover:text-navy-900 transition-colors">Layanan</a>
+                    <a href="#daftar-harga" class="text-sm font-semibold text-slate-600 hover:text-navy-900 transition-colors">Daftar Harga</a>
+                    <a href="#tentang-kami" class="text-sm font-semibold text-slate-600 hover:text-navy-900 transition-colors">Tentang Kami</a>
+                    <a href="#hubungi-kami" class="text-sm font-semibold text-slate-600 hover:text-navy-900 transition-colors">Hubungi Kami</a>
+                </nav>
+
+                <!-- Primary CTA Button (Desktop) -->
+                <div class="hidden lg:flex items-center">
+                    <button onclick="orderWhatsApp('umum')" class="inline-flex items-center gap-2 bg-navy-900 hover:bg-navy-800 text-white font-semibold text-sm px-5 py-3 rounded-xl shadow-md hover:shadow-lg transition-all duration-200 border border-navy-800 group">
+                        <span class="w-2 h-2 rounded-full bg-gold-400 group-hover:scale-125 transition-transform"></span>
+                        <span>Pesan Sekarang</span>
+                        <svg class="w-4 h-4 text-gold-400 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Mobile Hamburger Button -->
+                <div class="flex lg:hidden">
+                    <button id="mobile-menu-btn" type="button" aria-label="Buka Menu" class="p-2.5 rounded-xl text-navy-900 hover:bg-slate-100 focus:outline-none transition-colors">
+                        <svg id="menu-icon-open" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                        <svg id="menu-icon-close" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Dropdown Navigation -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-b border-slate-200 shadow-xl">
+            <div class="px-4 pt-3 pb-6 space-y-2">
+                <a href="#beranda" class="mobile-link block px-4 py-3 rounded-xl text-base font-semibold text-navy-900 bg-slate-50">Beranda</a>
+                <a href="#layanan" class="mobile-link block px-4 py-3 rounded-xl text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-navy-900">Layanan</a>
+                <a href="#daftar-harga" class="mobile-link block px-4 py-3 rounded-xl text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-navy-900">Daftar Harga</a>
+                <a href="#tentang-kami" class="mobile-link block px-4 py-3 rounded-xl text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-navy-900">Tentang Kami</a>
+                <a href="#hubungi-kami" class="mobile-link block px-4 py-3 rounded-xl text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-navy-900">Hubungi Kami</a>
+                <div class="pt-3">
+                    <button onclick="orderWhatsApp('umum')" class="w-full flex items-center justify-center gap-2 bg-navy-900 hover:bg-navy-800 text-white font-semibold py-3.5 px-5 rounded-xl shadow-md">
+                        <span>Pesan Sekarang via WhatsApp</span>
+                        <svg class="w-4 h-4 text-gold-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==========================================
+         HERO SECTION
+    =========================================== -->
+    <section id="beranda" class="relative pt-28 pb-20 lg:pt-36 lg:pb-28 bg-gradient-to-br from-navy-950 via-navy-900 to-navy-800 text-white overflow-hidden">
+        <!-- Decorative Background Shapes -->
+        <div class="absolute top-0 right-0 -mr-24 -mt-24 w-96 h-96 rounded-full bg-gold-500/10 blur-3xl pointer-events-none"></div>
+        <div class="absolute bottom-0 left-0 -ml-24 -mb-24 w-80 h-80 rounded-full bg-blue-500/10 blur-3xl pointer-events-none"></div>
+        <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMSIgY3k9IjEiIHI9IjEiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4wNSkiLz48L3N2Zz4=')] opacity-60 pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+                
+                <!-- Left Column: Copywriting & CTAs -->
+                <div class="lg:col-span-7 text-center lg:text-left reveal active">
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 border border-white/15 backdrop-blur-sm mb-6">
+                        <span class="w-2 h-2 rounded-full bg-gold-400 animate-pulse"></span>
+                        <span class="text-xs sm:text-sm font-medium text-gold-300 tracking-wide">Solusi Dokumen Profesional, Mudah, Cepat, dan Terjangkau</span>
+                    </div>
+
+                    <h1 class="font-heading text-3xl sm:text-4xl lg:text-5xl xl:text-[52px] font-extrabold leading-[1.15] tracking-tight mb-6">
+                        Persiapkan Masa Depanmu dengan <span class="text-gold-400">Dokumen yang Profesional!</span>
+                    </h1>
+
+                    <p class="text-base sm:text-lg text-slate-200 leading-relaxed max-w-2xl mx-auto lg:mx-0 mb-8 font-normal">
+                        Butuh CV profesional, surat lamaran kerja, translate jurnal, atau transkrip audio dan video? <strong class="text-white font-semibold">JurnalKarir Studio</strong> siap membantu kebutuhan dokumenmu dengan harga terjangkau dan proses praktis.
+                    </p>
+
+                    <!-- Dual Action Buttons -->
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+                        <a href="#layanan" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gold-500 hover:bg-gold-400 text-navy-950 font-bold text-base px-7 py-4 rounded-xl shadow-gold-glow transition-all duration-200 transform hover:-translate-y-0.5">
+                            <span>Lihat Layanan</span>
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </a>
+
+                        <button onclick="orderWhatsApp('konsultasi')" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-white/10 hover:bg-white/15 text-white font-semibold text-base px-7 py-4 rounded-xl border border-white/25 backdrop-blur-sm transition-all duration-200">
+                            <!-- WhatsApp Icon -->
+                            <svg class="w-5 h-5 text-[#25D366]" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824z"/>
+                            </svg>
+                            <span>Konsultasi WhatsApp</span>
+                        </button>
+                    </div>
+
+                    <!-- Trust Indicators -->
+                    <div class="mt-10 pt-8 border-t border-white/10 grid grid-cols-3 gap-4 max-w-lg mx-auto lg:mx-0">
+                        <div>
+                            <p class="font-heading text-xl sm:text-2xl font-bold text-gold-400">Mulai Rp1rb</p>
+                            <p class="text-xs sm:text-sm text-slate-300">Harga Terjangkau</p>
+                        </div>
+                        <div>
+                            <p class="font-heading text-xl sm:text-2xl font-bold text-white">ATS Friendly</p>
+                            <p class="text-xs sm:text-sm text-slate-300">Standar HRD Modern</p>
+                        </div>
+                        <div>
+                            <p class="font-heading text-xl sm:text-2xl font-bold text-white">100% Praktis</p>
+                            <p class="text-xs sm:text-sm text-slate-300">Order via WhatsApp</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Custom Professional Vector Illustration (Person working on laptop with CV & digital files) -->
+                <div class="lg:col-span-5 reveal active">
+                    <div class="relative mx-auto max-w-md lg:max-w-full">
+                        <!-- Glow behind illustration -->
+                        <div class="absolute inset-4 bg-gradient-to-tr from-gold-500/20 to-blue-400/20 rounded-3xl blur-2xl"></div>
+                        
+                        <!-- Main Illustration Card -->
+                        <div class="relative bg-white/10 backdrop-blur-md border border-white/20 rounded-3xl p-6 sm:p-8 shadow-2xl">
+                            <svg viewBox="0 0 500 430" class="w-full h-auto drop-shadow-lg" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Background Subtle Desk & Window -->
+                                <rect x="30" y="30" width="440" height="320" rx="24" fill="#0F2544" stroke="#334E68" stroke-width="2"/>
+                                <circle cx="70" cy="60" r="6" fill="#EF4444"/>
+                                <circle cx="92" cy="60" r="6" fill="#FACC15"/>
+                                <circle cx="114" cy="60" r="6" fill="#22C55E"/>
+                                <line x1="30" y1="85" x2="470" y2="85" stroke="#334E68" stroke-width="2"/>
+
+                                <!-- Floating CV Document Card (Left) -->
+                                <g class="animate-float">
+                                    <rect x="45" y="105" width="145" height="190" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+                                    <!-- Header of CV -->
+                                    <rect x="45" y="105" width="145" height="42" rx="12" fill="#1E3A5F"/>
+                                    <circle cx="72" cy="126" r="12" fill="#FACC15"/>
+                                    <rect x="92" y="118" width="75" height="6" rx="3" fill="#FFFFFF"/>
+                                    <rect x="92" y="129" width="50" height="4" rx="2" fill="#CBD5E1"/>
+                                    <!-- CV Content Lines -->
+                                    <rect x="60" y="160" width="45" height="6" rx="3" fill="#0F2544"/>
+                                    <rect x="60" y="172" width="115" height="4" rx="2" fill="#94A3B8"/>
+                                    <rect x="60" y="181" width="100" height="4" rx="2" fill="#94A3B8"/>
+                                    <rect x="60" y="198" width="55" height="6" rx="3" fill="#0F2544"/>
+                                    <rect x="60" y="210" width="110" height="4" rx="2" fill="#94A3B8"/>
+                                    <rect x="60" y="219" width="95" height="4" rx="2" fill="#94A3B8"/>
+                                    <!-- ATS Approved Badge -->
+                                    <rect x="60" y="242" width="115" height="28" rx="6" fill="#FEF9C3" stroke="#FACC15" stroke-width="1.5"/>
+                                    <circle cx="75" cy="256" r="6" fill="#CA8A04"/>
+                                    <path d="M72 256L74.5 258.5L78.5 253.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <text x="87" y="260" fill="#854D0E" font-family="Inter, sans-serif" font-size="10" font-weight="700">ATS FRIENDLY</text>
+                                </g>
+
+                                <!-- Floating Digital File & E-Meterai Badge (Right Top) -->
+                                <g class="animate-float-delayed">
+                                    <rect x="330" y="102" width="125" height="82" rx="12" fill="#1E3A5F" stroke="#FACC15" stroke-width="1.5"/>
+                                    <rect x="344" y="116" width="32" height="32" rx="8" fill="#FACC15" fill-opacity="0.2"/>
+                                    <path d="M354 126H366M354 132H366M354 138H360" stroke="#FACC15" stroke-width="2" stroke-linecap="round"/>
+                                    <text x="384" y="130" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="11" font-weight="700">Translate</text>
+                                    <text x="384" y="144" fill="#CBD5E1" font-family="Inter, sans-serif" font-size="9">&amp; Transkrip</text>
+                                    <rect x="344" y="158" width="96" height="14" rx="4" fill="#0F2544"/>
+                                    <text x="354" y="168" fill="#FACC15" font-family="Inter, sans-serif" font-size="8" font-weight="600">✓ Selesai &amp; Rapi</text>
+                                </g>
+
+                                <!-- Person Working on Laptop (Center-Right) -->
+                                <!-- Character Head & Torso -->
+                                <circle cx="268" cy="182" r="26" fill="#FDBA74"/>
+                                <!-- Hair -->
+                                <path d="M242 178C242 161 255 150 270 150C285 150 295 162 294 176C288 168 276 165 264 167C254 169 246 173 242 178Z" fill="#09172B"/>
+                                <!-- Glasses -->
+                                <rect x="252" y="177" width="12" height="8" rx="2" stroke="#0F2544" stroke-width="2" fill="white" fill-opacity="0.3"/>
+                                <rect x="268" y="177" width="12" height="8" rx="2" stroke="#0F2544" stroke-width="2" fill="white" fill-opacity="0.3"/>
+                                <line x1="264" y1="181" x2="268" y2="181" stroke="#0F2544" stroke-width="2"/>
+                                <!-- Smile -->
+                                <path d="M262 193C265 196 271 196 274 193" stroke="#9A3412" stroke-width="2" stroke-linecap="round"/>
+                                
+                                <!-- Navy Blazer / Shirt -->
+                                <path d="M222 268C222 236 242 216 268 216C294 216 314 236 314 268H222Z" fill="#3B82F6"/>
+                                <path d="M256 216L268 242L280 216" fill="#FFFFFF"/>
+                                <path d="M268 224L264 246L268 252L272 246L268 224Z" fill="#FACC15"/>
+
+                                <!-- Modern Laptop -->
+                                <rect x="200" y="252" width="136" height="84" rx="8" fill="#E2E8F0" stroke="#94A3B8" stroke-width="2"/>
+                                <circle cx="268" cy="294" r="12" fill="#0F2544"/>
+                                <path d="M264 294L267 297L273 291" stroke="#FACC15" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <!-- Laptop Base -->
+                                <path d="M182 336H354L364 348H172L182 336Z" fill="#CBD5E1"/>
+
+                                <!-- Desk Surface -->
+                                <rect x="20" y="348" width="460" height="14" rx="7" fill="#FACC15"/>
+
+                                <!-- Bottom Status Pill inside SVG -->
+                                <rect x="95" y="378" width="310" height="36" rx="18" fill="#1E3A5F" stroke="#334E68" stroke-width="1.5"/>
+                                <circle cx="118" cy="396" r="5" fill="#22C55E"/>
+                                <text x="132" y="400" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="12" font-weight="600">Dokumen Siap Kirim • Cepat &amp; Terpercaya</text>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         LAYANAN & DAFTAR HARGA SECTION
+    =========================================== -->
+    <section id="layanan" class="py-20 lg:py-28 bg-slate-50 relative">
+        <div id="daftar-harga" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <!-- Section Header -->
+            <div class="text-center max-w-3xl mx-auto mb-16 reveal">
+                <span class="inline-block px-4 py-1.5 rounded-full bg-navy-900/5 text-navy-900 font-semibold text-xs uppercase tracking-wider mb-3">
+                    Layanan &amp; Daftar Harga
+                </span>
+                <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-navy-900 tracking-tight mb-4">
+                    Pilihan Layanan Dokumen Terbaik untuk Kebutuhanmu
+                </h2>
+                <p class="text-slate-600 text-base sm:text-lg leading-relaxed">
+                    Harga transparan, ramah di kantong mahasiswa maupun pencari kerja, dengan kualitas pengerjaan yang rapi dan siap pakai.
+                </p>
+            </div>
+
+            <!-- 4 Service Cards Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7">
+
+                <!-- LAYANAN 1: Pembuatan CV dan Surat Lamaran Kerja -->
+                <div class="reveal bg-white rounded-2xl border border-slate-200/80 shadow-premium hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between p-6 sm:p-7 relative overflow-hidden group">
+                    <!-- Popular Ribbon -->
+                    <div class="absolute top-0 right-0 bg-gold-400 text-navy-950 text-[11px] font-extrabold px-3.5 py-1 rounded-bl-xl uppercase tracking-wider">
+                        Terlaris
+                    </div>
+
+                    <div>
+                        <!-- Professional Service Icon -->
+                        <div class="w-14 h-14 rounded-2xl bg-navy-900 text-gold-400 flex items-center justify-center mb-6 group-hover:scale-105 transition-transform shadow-sm">
+                            <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                            </svg>
+                        </div>
+
+                        <h3 class="font-heading text-xl font-bold text-navy-900 mb-2 leading-snug">
+                            Pembuatan CV dan Surat Lamaran Kerja
+                        </h3>
+
+                        <!-- Price Tag -->
+                        <div class="my-5 pb-5 border-b border-slate-100">
+                            <span class="text-xs font-medium text-slate-500 block mb-0.5">Mulai dari / Paket</span>
+                            <div class="flex items-baseline gap-1">
+                                <span class="font-heading text-3xl font-extrabold text-navy-900">Rp10.000</span>
+                            </div>
+                        </div>
+
+                        <!-- Features List -->
+                        <ul class="space-y-3 text-sm text-slate-600 mb-8">
+                            <li class="flex items-start gap-2.5">
+                                <svg class="w-5 h-5 text-gold-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Pembuatan CV ATS Friendly</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <svg class="w-5 h-5 text-gold-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Penyusunan CV profesional</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <svg class="w-5 h-5 text-gold-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Pembuatan surat lamaran kerja</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <svg class="w-5 h-5 text-gold-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Penyesuaian CV sesuai posisi pekerjaan</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <svg class="w-5 h-5 text-gold-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Format rapi dan mudah dibaca HRD</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <button onclick="orderWhatsApp('cv')" class="w-full py-3.5 px-4 rounded-xl bg-navy-900 hover:bg-gold-500 text-white hover:text-navy-950 font-bold text-sm transition-all duration-200 flex items-center justify-center gap-2 shadow-sm">
+                        <span>Pesan CV Sekarang</span>
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- LAYANAN 2: Translate Jurnal, Ebook, dan PDF -->
+                <div class="reveal bg-white rounded-2xl border border-slate-200/80 shadow-premium hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between p-6 sm:p-7 group">
+                    <div>
+                        <!-- Professional Service Icon -->
+                        <div class="w-14 h-14 rounded-2xl bg-navy-900 text-gold-400 flex items-center justify-center mb-6 group-hover:scale-105 transition-transform shadow-sm">
+                            <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"></path>
+                            </svg>
+                        </div>
+
+                        <h3 class="font-heading text-xl font-bold text-navy-900 mb-2 leading-snug">
+                            Translate Jurnal, Ebook, dan PDF
+                        </h3>
+
+                        <!-- Price Tag -->
+                        <div class="my-5 pb-5 border-b border-slate-100">
+                            <span class="text-xs font-medium text-slate-500 block mb-0.5">Biaya Layanan</span>
+                            <div class="flex items-baseline gap-1.5">
+                                <span class="font-heading text-3xl font-extrabold text-navy-900">Rp5.000</span>
+                                <span class="text-sm font-semibold text-slate-500">/ file</span>
+                            </div>
+                        </div>
+
+                        <!-- Features List -->
+                        <ul class="space-y-3 text-sm text-slate-600 mb-8">
+                            <li class="flex items-start gap-2.5">
+                                <svg class="w-5 h-5 text-gold-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Maksimal 50 halaman per file</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <svg class="w-5 h-5 text-gold-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Membantu penerjemahan dokumen dan jurnal</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <svg class="w-5 h-5 text-gold-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Format dokumen diupayakan tetap rapi</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <svg class="w-5 h-5 text-gold-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Cocok untuk kebutuhan akademik dan umum</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <button onclick="orderWhatsApp('translate')" class="w-full py-3.5 px-4 rounded-xl bg-navy-900 hover:bg-gold-500 text-white hover:text-navy-950 font-bold text-sm transition-all duration-200 flex items-center justify-center gap-2 shadow-sm">
+                        <span>Pesan Translate</span>
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- LAYANAN 3: Transkrip Audio / Video ke Teks -->
+                <div class="reveal bg-white rounded-2xl border border-slate-200/80 shadow-premium hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between p-6 sm:p-7 group">
+                    <div>
+                        <!-- Professional Service Icon -->
+                        <div class="w-14 h-14 rounded-2xl bg-navy-900 text-gold-400 flex items-center justify-center mb-6 group-hover:scale-105 transition-transform shadow-sm">
+                            <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"></path>
+                            </svg>
+                        </div>
+
+                        <h3 class="font-heading text-xl font-bold text-navy-900 mb-2 leading-snug">
+                            Transkrip Audio / Video ke Teks
+                        </h3>
+
+                        <!-- Price Tag -->
+                        <div class="my-5 pb-5 border-b border-slate-100">
+                            <span class="text-xs font-medium text-slate-500 block mb-0.5">Biaya Layanan</span>
+                            <div class="flex items-baseline gap-1.5">
+                                <span class="font-heading text-3xl font-extrabold text-navy-900">Rp1.000</span>
+                                <span class="text-sm font-semibold text-slate-500">/ menit</span>
+                            </div>
+                        </div>
+
+                        <!-- Features List -->
+                        <ul class="space-y-3 text-sm text-slate-600 mb-8">
+                            <li class="flex items-start gap-2.5">
+                                <svg class="w-5 h-5 text-gold-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Mengubah rekaman audio menjadi teks</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <svg class="w-5 h-5 text-gold-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Mengubah video menjadi teks</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <svg class="w-5 h-5 text-gold-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Membantu transkripsi wawancara</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <svg class="w-5 h-5 text-gold-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Cocok untuk tugas kuliah, penelitian, dan kebutuhan pekerjaan</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <button onclick="orderWhatsApp('transkrip')" class="w-full py-3.5 px-4 rounded-xl bg-navy-900 hover:bg-gold-500 text-white hover:text-navy-950 font-bold text-sm transition-all duration-200 flex items-center justify-center gap-2 shadow-sm">
+                        <span>Pesan Transkrip</span>
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- LAYANAN 4: Ready E-Meterai -->
+                <div class="reveal bg-white rounded-2xl border border-slate-200/80 shadow-premium hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between p-6 sm:p-7 group">
+                    <div>
+                        <!-- Professional Service Icon -->
+                        <div class="w-14 h-14 rounded-2xl bg-navy-900 text-gold-400 flex items-center justify-center mb-6 group-hover:scale-105 transition-transform shadow-sm">
+                            <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                            </svg>
+                        </div>
+
+                        <h3 class="font-heading text-xl font-bold text-navy-900 mb-2 leading-snug">
+                            Ready E-Meterai
+                        </h3>
+
+                        <!-- Price Tag -->
+                        <div class="my-5 pb-5 border-b border-slate-100">
+                            <span class="text-xs font-medium text-slate-500 block mb-0.5">Harga per Keping</span>
+                            <div class="flex items-baseline gap-1">
+                                <span class="font-heading text-3xl font-extrabold text-navy-900">Rp22.000</span>
+                            </div>
+                        </div>
+
+                        <!-- Features List -->
+                        <ul class="space-y-3 text-sm text-slate-600 mb-8">
+                            <li class="flex items-start gap-2.5">
+                                <svg class="w-5 h-5 text-gold-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Penyediaan e-Meterai untuk kebutuhan dokumen digital</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <svg class="w-5 h-5 text-gold-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Membantu kebutuhan administrasi dan dokumen resmi</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <svg class="w-5 h-5 text-gold-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Proses pemesanan melalui WhatsApp</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <button onclick="orderWhatsApp('emeterai')" class="w-full py-3.5 px-4 rounded-xl bg-navy-900 hover:bg-gold-500 text-white hover:text-navy-950 font-bold text-sm transition-all duration-200 flex items-center justify-center gap-2 shadow-sm">
+                        <span>Pesan E-Meterai</span>
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         MENGAPA MEMILIH JURNALKARIR STUDIO? (TENTANG KAMI)
+    =========================================== -->
+    <section id="tentang-kami" class="py-20 lg:py-28 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <!-- Section Header -->
+            <div class="text-center max-w-3xl mx-auto mb-16 reveal">
+                <span class="inline-block px-4 py-1.5 rounded-full bg-gold-500/15 text-gold-700 font-semibold text-xs uppercase tracking-wider mb-3">
+                    Keunggulan Kami
+                </span>
+                <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-navy-900 tracking-tight mb-4">
+                    Mengapa Memilih JurnalKarir Studio?
+                </h2>
+                <p class="text-slate-600 text-base sm:text-lg leading-relaxed">
+                    Kami hadir sebagai partner digital yang mengutamakan kerapian, ketepatan, dan kemudahan komunikasi agar dokumenmu selesai tanpa ribet.
+                </p>
+            </div>
+
+            <!-- 6 Advantages Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+                
+                <!-- Keunggulan 1: Harga Terjangkau -->
+                <div class="reveal p-7 rounded-2xl bg-slate-50 border border-slate-100 hover:bg-white hover:border-gold-300 hover:shadow-premium transition-all duration-300">
+                    <div class="w-12 h-12 rounded-xl bg-navy-900 text-gold-400 flex items-center justify-center mb-5">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="font-heading text-lg font-bold text-navy-900 mb-2">Harga Terjangkau</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Tarif bersahabat mulai dari Rp1.000-an, dirancang khusus agar ramah bagi pelajar, mahasiswa, dan jobseeker.
+                    </p>
+                </div>
+
+                <!-- Keunggulan 2: Pelayanan Ramah -->
+                <div class="reveal p-7 rounded-2xl bg-slate-50 border border-slate-100 hover:bg-white hover:border-gold-300 hover:shadow-premium transition-all duration-300">
+                    <div class="w-12 h-12 rounded-xl bg-navy-900 text-gold-400 flex items-center justify-center mb-5">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="font-heading text-lg font-bold text-navy-900 mb-2">Pelayanan Ramah</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Admin responsif dan siap mendengarkan detail kebutuhan dokumenmu dengan komunikasi yang sopan serta solutif.
+                    </p>
+                </div>
+
+                <!-- Keunggulan 3: Proses Pemesanan Mudah -->
+                <div class="reveal p-7 rounded-2xl bg-slate-50 border border-slate-100 hover:bg-white hover:border-gold-300 hover:shadow-premium transition-all duration-300">
+                    <div class="w-12 h-12 rounded-xl bg-navy-900 text-gold-400 flex items-center justify-center mb-5">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="font-heading text-lg font-bold text-navy-900 mb-2">Proses Pemesanan Mudah</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Tanpa formulir panjang yang membingungkan. Pilih layanan, klik pesan, dan langsung terhubung dengan tim kami.
+                    </p>
+                </div>
+
+                <!-- Keunggulan 4: Hasil Dokumen Rapi -->
+                <div class="reveal p-7 rounded-2xl bg-slate-50 border border-slate-100 hover:bg-white hover:border-gold-300 hover:shadow-premium transition-all duration-300">
+                    <div class="w-12 h-12 rounded-xl bg-navy-900 text-gold-400 flex items-center justify-center mb-5">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="font-heading text-lg font-bold text-navy-900 mb-2">Hasil Dokumen Rapi</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Tata letak bersih, struktur profesional, serta format yang siap dikirim ke HRD maupun untuk keperluan akademik.
+                    </p>
+                </div>
+
+                <!-- Keunggulan 5: Praktis Melalui WhatsApp -->
+                <div class="reveal p-7 rounded-2xl bg-slate-50 border border-slate-100 hover:bg-white hover:border-gold-300 hover:shadow-premium transition-all duration-300">
+                    <div class="w-12 h-12 rounded-xl bg-navy-900 text-gold-400 flex items-center justify-center mb-5">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="font-heading text-lg font-bold text-navy-900 mb-2">Praktis Melalui WhatsApp</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Kirim berkas, konsultasi revisi, hingga penerimaan hasil akhir dilakukan langsung lewat WhatsApp secara praktis.
+                    </p>
+                </div>
+
+                <!-- Keunggulan 6: Beragam Layanan dalam Satu Tempat -->
+                <div class="reveal p-7 rounded-2xl bg-slate-50 border border-slate-100 hover:bg-white hover:border-gold-300 hover:shadow-premium transition-all duration-300">
+                    <div class="w-12 h-12 rounded-xl bg-navy-900 text-gold-400 flex items-center justify-center mb-5">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+                        </svg>
+                    </div>
+                    <h3 class="font-heading text-lg font-bold text-navy-900 mb-2">Beragam Layanan dalam Satu Tempat</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Mulai dari CV, surat lamaran, translate jurnal, transkrip audio/video, hingga e-Meterai tersedia lengkap di satu studio.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         CARA PEMESANAN (4 LANGKAH MUDAH)
+    =========================================== -->
+    <section class="py-20 lg:py-24 bg-navy-900 text-white relative overflow-hidden">
+        <!-- Decorative Gold Line -->
+        <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-navy-900 via-gold-400 to-navy-900"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center max-w-3xl mx-auto mb-16 reveal">
+                <span class="inline-block px-4 py-1.5 rounded-full bg-white/10 text-gold-400 font-semibold text-xs uppercase tracking-wider mb-3">
+                    Alur Pemesanan
+                </span>
+                <h2 class="font-heading text-3xl sm:text-4xl font-extrabold tracking-tight mb-4">
+                    Cara Pemesanan di JurnalKarir Studio
+                </h2>
+                <p class="text-slate-300 text-base sm:text-lg">
+                    Hanya butuh 4 langkah sederhana untuk mendapatkan dokumen profesional impianmu.
+                </p>
+            </div>
+
+            <!-- 4 Steps Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 relative">
+                
+                <!-- Connecting Line (Desktop) -->
+                <div class="hidden lg:block absolute top-10 left-[12%] right-[12%] h-0.5 bg-gradient-to-r from-gold-400/20 via-gold-400/60 to-gold-400/20 pointer-events-none"></div>
+
+                <!-- Step 1 -->
+                <div class="reveal relative text-center flex flex-col items-center">
+                    <div class="w-20 h-20 rounded-2xl bg-navy-800 border-2 border-gold-400 flex items-center justify-center shadow-lg mb-6 relative z-10">
+                        <span class="font-heading text-2xl font-extrabold text-gold-400">1</span>
+                    </div>
+                    <h3 class="font-heading text-lg font-bold text-white mb-2">Pilih Layanan</h3>
+                    <p class="text-sm text-slate-300 leading-relaxed max-w-xs">
+                        Pilih layanan yang dibutuhkan sesuai dengan keperluan karir atau akademikmu.
+                    </p>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="reveal relative text-center flex flex-col items-center">
+                    <div class="w-20 h-20 rounded-2xl bg-navy-800 border-2 border-gold-400 flex items-center justify-center shadow-lg mb-6 relative z-10">
+                        <span class="font-heading text-2xl font-extrabold text-gold-400">2</span>
+                    </div>
+                    <h3 class="font-heading text-lg font-bold text-white mb-2">Klik Tombol Pesan</h3>
+                    <p class="text-sm text-slate-300 leading-relaxed max-w-xs">
+                        Klik tombol <span class="text-gold-300 font-medium">Pesan Sekarang</span> pada layanan yang dipilih untuk format pesan otomatis.
+                    </p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="reveal relative text-center flex flex-col items-center">
+                    <div class="w-20 h-20 rounded-2xl bg-navy-800 border-2 border-gold-400 flex items-center justify-center shadow-lg mb-6 relative z-10">
+                        <span class="font-heading text-2xl font-extrabold text-gold-400">3</span>
+                    </div>
+                    <h3 class="font-heading text-lg font-bold text-white mb-2">Kirim Data / File</h3>
+                    <p class="text-sm text-slate-300 leading-relaxed max-w-xs">
+                        Kirim data diri, rekaman, atau file dokumen yang akan diproses melalui WhatsApp.
+                    </p>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="reveal relative text-center flex flex-col items-center">
+                    <div class="w-20 h-20 rounded-2xl bg-gold-500 text-navy-950 flex items-center justify-center shadow-gold-glow mb-6 relative z-10">
+                        <span class="font-heading text-2xl font-extrabold">4</span>
+                    </div>
+                    <h3 class="font-heading text-lg font-bold text-white mb-2">Pembayaran &amp; Proses</h3>
+                    <p class="text-sm text-slate-300 leading-relaxed max-w-xs">
+                        Lakukan pembayaran dan tunggu proses pengerjaan rapi sesuai kesepakatan waktu.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         KONTAK DAN WHATSAPP SECTION
+    =========================================== -->
+    <section id="hubungi-kami" class="py-20 lg:py-28 bg-slate-50">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="reveal bg-gradient-to-br from-navy-950 via-navy-900 to-navy-800 rounded-3xl p-8 sm:p-12 lg:p-16 text-center text-white shadow-2xl relative overflow-hidden border border-navy-700">
+                
+                <!-- Decorative Accents -->
+                <div class="absolute -top-20 -right-20 w-64 h-64 bg-gold-400/15 rounded-full blur-3xl pointer-events-none"></div>
+                <div class="absolute -bottom-20 -left-20 w-64 h-64 bg-blue-400/10 rounded-full blur-3xl pointer-events-none"></div>
+
+                <div class="relative z-10 max-w-2xl mx-auto">
+                    <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-gold-400/15 text-gold-300 text-xs font-bold uppercase tracking-wider mb-5">
+                        Hubungi Kami Sekarang
+                    </span>
+
+                    <h2 class="font-heading text-3xl sm:text-4xl lg:text-[42px] font-extrabold leading-tight mb-5">
+                        Siap Membuat Dokumenmu Lebih Profesional?
+                    </h2>
+
+                    <p class="text-slate-200 text-base sm:text-lg leading-relaxed mb-8">
+                        Jangan bingung mengurus dokumen sendiri. Serahkan kebutuhanmu kepada <strong class="text-gold-400">JurnalKarir Studio</strong>.
+                    </p>
+
+                    <!-- Official WhatsApp Box -->
+                    <div class="inline-flex flex-col sm:flex-row items-center justify-center gap-4 bg-white/10 backdrop-blur-md border border-white/15 px-6 py-4 rounded-2xl mb-8">
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 rounded-full bg-[#25D366]/20 flex items-center justify-center text-[#25D366]">
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824z"/>
+                                </svg>
+                            </div>
+                            <div class="text-left">
+                                <span class="text-xs text-slate-300 block">WhatsApp Resmi</span>
+                                <span class="font-heading font-bold text-lg text-white tracking-wide">+62 819-3767-7870</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a href="https://wa.me/6281937677870?text=Halo%20JurnalKarir%20Studio,%20saya%20ingin%20berkonsultasi%20mengenai%20layanan%20dokumen." target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-3 bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold text-base sm:text-lg px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 transform hover:-translate-y-0.5">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824z"/>
+                            </svg>
+                            <span>Chat via WhatsApp Sekarang</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         FOOTER
+    =========================================== -->
+    <footer class="bg-navy-950 text-slate-300 pt-16 pb-10 border-t border-navy-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-navy-800/80">
+                
+                <!-- Brand & Description (5 cols) -->
+                <div class="lg:col-span-5">
+                    <a href="#beranda" class="flex items-center gap-2.5 mb-4">
+                        <div class="w-9 h-9 rounded-xl bg-navy-800 border border-navy-700 flex items-center justify-center">
+                            <svg class="w-5 h-5 text-gold-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                            </svg>
+                        </div>
+                        <span class="font-heading font-extrabold text-xl text-white">
+                            JurnalKarir <span class="text-gold-400">Studio</span>
+                        </span>
+                    </a>
+                    <p class="text-sm text-slate-400 leading-relaxed max-w-md mb-4">
+                        Solusi Dokumen Profesional, Mudah, Cepat, dan Terjangkau. Kami membantu kebutuhan CV ATS Friendly, surat lamaran kerja, translate jurnal/PDF, transkrip audio/video, hingga penyediaan e-Meterai resmi.
+                    </p>
+                </div>
+
+                <!-- Daftar Layanan (4 cols) -->
+                <div class="lg:col-span-4">
+                    <h4 class="font-heading text-white font-bold text-base mb-4">Daftar Layanan</h4>
+                    <ul class="space-y-2.5 text-sm">
+                        <li>
+                            <a href="#layanan" class="text-slate-400 hover:text-gold-400 transition-colors">Pembuatan CV &amp; Surat Lamaran Kerja</a>
+                        </li>
+                        <li>
+                            <a href="#layanan" class="text-slate-400 hover:text-gold-400 transition-colors">Translate Jurnal, Ebook, dan PDF</a>
+                        </li>
+                        <li>
+                            <a href="#layanan" class="text-slate-400 hover:text-gold-400 transition-colors">Transkrip Audio / Video ke Teks</a>
+                        </li>
+                        <li>
+                            <a href="#layanan" class="text-slate-400 hover:text-gold-400 transition-colors">Ready E-Meterai Resmi</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Kontak Resmi (3 cols) -->
+                <div class="lg:col-span-3">
+                    <h4 class="font-heading text-white font-bold text-base mb-4">Kontak Pemesanan</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li>
+                            <span class="text-slate-400 block text-xs mb-1">WhatsApp Resmi:</span>
+                            <a href="https://wa.me/6281937677870" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-white font-semibold hover:text-gold-400 transition-colors">
+                                <svg class="w-4 h-4 text-[#25D366]" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824z"/>
+                                </svg>
+                                <span>+62 819-3767-7870</span>
+                            </a>
+                        </li>
+                        <li class="pt-1">
+                            <span class="inline-flex items-center gap-1.5 text-xs text-emerald-400 bg-emerald-500/10 px-3 py-1 rounded-full">
+                                <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+                                Fast Response via WhatsApp
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Copyright -->
+            <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
+                <p>Copyright &copy; 2026 JurnalKarir Studio. All Rights Reserved.</p>
+                <div class="flex items-center gap-6">
+                    <a href="#beranda" class="hover:text-white transition-colors">Beranda</a>
+                    <a href="#layanan" class="hover:text-white transition-colors">Layanan</a>
+                    <a href="#hubungi-kami" class="hover:text-white transition-colors">Kontak</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==========================================
+         FLOATING WHATSAPP BUTTON
+    =========================================== -->
+    <a href="https://wa.me/6281937677870?text=Halo%20JurnalKarir%20Studio,%20saya%20ingin%20bertanya%20tentang%20layanan%20dokumen." 
+       target="_blank" 
+       rel="noopener noreferrer" 
+       aria-label="Chat WhatsApp JurnalKarir Studio"
+       class="fixed bottom-6 right-6 z-50 flex items-center gap-2.5 bg-[#25D366] hover:bg-[#20bd5a] text-white px-4 py-3.5 rounded-full shadow-2xl transition-all duration-300 hover:scale-105 wa-pulse group">
+        <svg class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824z"/>
+        </svg>
+        <span class="font-semibold text-sm hidden sm:inline-block pr-1">Chat WhatsApp</span>
+    </a>
+
+    <!-- ==========================================
+         JAVASCRIPT LOGIC
+    =========================================== -->
+    <script>
+        // Nomor WhatsApp Resmi JurnalKarir Studio
+        const WHATSAPP_NUMBER = "6281937677870";
+
+        /**
+         * Fungsi untuk mengarahkan pengguna ke WhatsApp dengan format pesan otomatis
+         * sesuai layanan yang dipilih.
+         * @param {string} serviceType - Jenis layanan yang dipilih
+         */
+        function orderWhatsApp(serviceType) {
+            let message = "";
+
+            switch (serviceType) {
+                case "cv":
+                    message = "Halo JurnalKarir Studio, saya ingin memesan layanan *Pembuatan CV dan Surat Lamaran Kerja* (Rp10.000). Mohon informasi langkah selanjutnya.";
+                    break;
+                case "translate":
+                    message = "Halo JurnalKarir Studio, saya ingin memesan layanan *Translate Jurnal, Ebook, dan PDF* (Rp5.000/file, maks. 50 halaman). Mohon informasi langkah selanjutnya.";
+                    break;
+                case "transkrip":
+                    message = "Halo JurnalKarir Studio, saya ingin memesan layanan *Transkrip Audio / Video ke Teks* (Rp1.000/menit). Mohon informasi langkah selanjutnya.";
+                    break;
+                case "emeterai":
+                    message = "Halo JurnalKarir Studio, saya ingin memesan *Ready E-Meterai* (Rp22.000). Mohon informasi ketersediaan dan cara pemesanannya.";
+                    break;
+                case "konsultasi":
+                    message = "Halo JurnalKarir Studio, saya ingin berkonsultasi terlebih dahulu mengenai layanan dokumen yang tersedia.";
+                    break;
+                default:
+                    message = "Halo JurnalKarir Studio, saya ingin memesan layanan dokumen. Mohon informasi selengkapnya.";
+                    break;
+            }
+
+            const encodedMessage = encodeURIComponent(message);
+            const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodedMessage}`;
+            
+            // Buka tautan WhatsApp di tab baru
+            window.open(whatsappUrl, "_blank", "noopener,noreferrer");
+        }
+
+        // Toggle Mobile Menu
+        const mobileMenuBtn = document.getElementById("mobile-menu-btn");
+        const mobileMenu = document.getElementById("mobile-menu");
+        const iconOpen = document.getElementById("menu-icon-open");
+        const iconClose = document.getElementById("menu-icon-close");
+        const mobileLinks = document.querySelectorAll(".mobile-link");
+
+        mobileMenuBtn.addEventListener("click", () => {
+            const isHidden = mobileMenu.classList.contains("hidden");
+            if (isHidden) {
+                mobileMenu.classList.remove("hidden");
+                iconOpen.classList.add("hidden");
+                iconClose.classList.remove("hidden");
+            } else {
+                mobileMenu.classList.add("hidden");
+                iconOpen.classList.remove("hidden");
+                iconClose.classList.add("hidden");
+            }
+        });
+
+        // Tutup menu mobile ketika link diklik
+        mobileLinks.forEach(link => {
+            link.addEventListener("click", () => {
+                mobileMenu.classList.add("hidden");
+                iconOpen.classList.remove("hidden");
+                iconClose.classList.add("hidden");
+            });
+        });
+
+        // Efek Shadow pada Navbar saat di-scroll
+        const navbar = document.getElementById("navbar");
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 20) {
+                navbar.classList.add("shadow-md");
+            } else {
+                navbar.classList.remove("shadow-md");
+            }
+        });
+
+        // Animasi Scroll Reveal ringan menggunakan IntersectionObserver
+        document.addEventListener("DOMContentLoaded", () => {
+            const revealElements = document.querySelectorAll(".reveal");
+
+            const revealObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add("active");
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, {
+                root: null,
+                threshold: 0.12,
+                rootMargin: "0px 0px -40px 0px"
+            });
+
+            revealElements.forEach(el => {
+                revealObserver.observe(el);
+            });
+        });
+    </script>
+</body>
+</html>
